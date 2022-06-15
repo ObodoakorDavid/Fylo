@@ -1,0 +1,384 @@
+/** @format */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ************ Navbar Starts Here *********** */
+.navbar1 {
+  background-color: #181e2a;
+}
+
+.navbar1 a {
+  color: white;
+  text-decoration: none;
+}
+.navbar1 img {
+  width: 140px;
+}
+.navbar1 {
+  color: red;
+}
+
+/* ************ Navbar Ends Here *********** */
+
+/* ************ Section1 Starts Here *********** */
+
+.section1 {
+  padding: 5%;
+  /* background-image: url(./images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain; */
+  padding-bottom: 40px;
+  background-color: #181e2a;
+  color: white;
+}
+
+.section1 img {
+  width: 95%;
+  padding-bottom: 10px;
+}
+
+.section1 h1 {
+  padding-bottom: 20px;
+}
+
+.section1 p {
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #4ec3d4;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 100px;
+  color: white;
+}
+
+/* ************ Section1 Ends Here *********** */
+
+/* ************ Section2 Starts Here *********** */
+
+.section2 {
+  background-color: #181e2a;
+  color: white;
+  padding: 5%;
+  padding-top: 60px;
+}
+
+.containers {
+  padding-bottom: 60px;
+}
+
+.containers img {
+  padding-bottom: 20px;
+}
+
+.containers h2 {
+  padding-bottom: 10px;
+}
+
+.containers p {
+  font-weight: 400;
+}
+
+/* ************ Section2 Ends Here *********** */
+
+/* ************ Section3 Starts Here *********** */
+
+.section3 {
+  padding: 5%;
+  background-color: #181e2a;
+  color: white;
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+.section3 img {
+  width: 95%;
+  padding-bottom: 10px;
+}
+
+.section3 h2 {
+  padding-bottom: 20px;
+}
+
+.section3 p {
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.section3 a {
+  color: #65d7d5;
+  text-decoration: none;
+  border-bottom: 2px solid #65d7d5;
+  padding-bottom: 2px;
+}
+
+.section3 span {
+  background-color: #65d7d5;
+  color: black;
+  border-radius: 50px;
+}
+
+/* ************ Section3 Ends Here *********** */
+
+/* ************ Section4 Starts Here *********** */
+.section4 {
+  background-color: #181e2a;
+  color: white;
+  padding: 5%;
+  padding-top: 50px;
+  padding-bottom: 220px;
+  position: relative;
+}
+
+.quoteimg {
+  position: absolute;
+  top: 4%;
+  left: 5%;
+}
+
+.quotes {
+  background-color: #21293c;
+  margin: 30px 0px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.firstp {
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.quotes img {
+  border-radius: 100px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.inner-quotes {
+  display: flex;
+}
+
+/* ************ Section4 Ends Here *********** */
+
+/* ************ Footer Starts Here *********** */
+
+.footer {
+  padding: 5%;
+  position: relative;
+  padding-top: 250px;
+  background-color: #0c1524;
+  color: white;
+}
+
+.getearly {
+  border: 2px solid;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1b2330;
+  color: white;
+  font-weight: 400;
+  margin: 0 8%;
+  position: absolute;
+  top: -15%;
+  left: 0%;
+}
+
+.getearly h2 {
+  padding-bottom: 15px;
+}
+
+.getearly p {
+  padding-bottom: 20px;
+}
+
+.getearly input {
+  margin-bottom: 20px;
+  border-radius: 40px;
+  border: none;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+}
+
+.getearly button {
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  padding-left: 10%;
+  border-radius: 40px;
+  border: none;
+  width: 90%;
+  background-color: #41b2d0;
+  color: white;
+  font-weight: 400;
+}
+
+.realfooter {
+  text-align: left;
+}
+
+.footerlogo {
+  margin-bottom: 30px;
+}
+
+.three {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.three img {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.location {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.ajb {
+  padding-top: 30px;
+  text-align: left;
+}
+.ajb p {
+  padding-bottom: 10px;
+}
+
+.ctp {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+.ctp p {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.logos img {
+  margin-right: 15px;
+}
+
+/* ************ Footer Ends Here *********** */
+
+/* **********MEDIA QUERY********** */
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 600px) {
+  .section1 {
+    padding: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .section1 {
+    padding: 5% 15%;
+  }
+
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .containers {
+    padding: 30px;
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+  .section3 p {
+    margin-bottom: 0px;
+  }
+  .section3 h2 {
+    margin-bottom: 0px;
+  }
+  .section3 img {
+    width: 100%;
+  }
+  .threequotes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .quotes {
+    margin-right: 30px;
+  }
+
+  .quoteimg {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+  }
+
+  .getearly {
+    margin: 0 15%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navitems {
+    margin-left: 75%;
+  }
+
+  .footer-details {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 1fr;
+    gap: 30px;
+  }
+
+  .ajb {
+    padding-top: 0px;
+  }
+  .ctp {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section3 div {
+    margin-top: 14%;
+  }
+  .getearly {
+    margin: 0 20%;
+    padding: 30px;
+  }
+
+  .getearly div {
+    display: flex;
+  }
+  .getearly input {
+    width: 67%;
+    margin-right: 3%;
+  }
+  .getearly button {
+    width: 30%;
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .getearly {
+    margin: 0 20%;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+/* ************ Navbar Starts Here *********** */
+/* ************ Navbar Ends Here *********** */
